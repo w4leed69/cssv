@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<title>Basic Layout Design</title>
+<style>
+    body{
+        
+        font-family: Arial, Helvetica, sans-serif;
+     background-color: darkcyan;
+     margin: 0;
+    }
+#wrapper{
+    border: 1px solid black;
+background-color: white;
+width: 1000px;
+margin: 0 auto;
+}
+#wrapper h1{
+    margin: 0;
+}
+#header{ 
+    background-color: brown;
+    height: 100px;
+    margin: 0;
+    color: white;
+    padding: 0;
+}
+#header h1{
+   padding: 30px 0 0 10px;
+}
+#menu{
+    background-color: orange;
+}
+#menu li{
+    display: inline-block;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+}
+#menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 5px 13px;
+    color: black;
+}
+#menu li a:hover{
+    background-color: black;
+    color: orange;
+}
+#content{
+    width: 800px;
+    float: left;
+    min-height: 380px;
+    box-sizing: border-box;
+}
+#sidebar{
+    background-color: blueviolet;
+    width: 200px;
+    float: right;
+    height: 390px;
+}
+#sidebar a{
+    text-decoration: none;
+    color: black;
+}
+#footer{
+    background-color: blueviolet;
+    clear: both;
+    text-align: right;
+    padding: 5px 10px;
+    color: white;
+}
+a{
+    width: 200px;
+    height: 20px;
+    background-color: orange;
+    border: 2px solid black;
+    padding: 10px;
+}
+.afa a{
+    text-decoration: none;
+    color: white;
+}
+.afa a:hover{
+    background-color: black;
+    color: white;
+}
+</style>
+<body>
+<div id="wrapper">
+<div id="header">
+   <h1>London Travel</h1>
+</div>
+<div id="menu">
+    <ul>
+        <li><a href="">HOME</a></li>
+        <li><a href="">ABOUT US</a></li>
+        <li><a href="">GALLERY</a></li>
+        <li><a href="">CONTACT US</a></li>
+    </ul>
+</div>
+<div id="content">
+    <h2>Basic Layout Design</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, error. Reiciendis explicabo quis architecto velit optio doloremque harum odio? Deserunt quisquam ipsum voluptas beatae excepturi quae eius corporis saepe voluptatibus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus distinctio ipsa, id placeat ea consequuntur facilis facere saepe, animi totam excepturi voluptatum error maxime ipsam architecto quisquam consectetur. Quo, cupiditate!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde possimus voluptate sapiente repudiandae obcaecati? Similique, minus nesciunt? Reprehenderit exercitationem, voluptas adipisci quo fuga, provident fugiat numquam labore, sint vero omnis.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur incidunt pariatur perferendis natus eius eos tenetur doloribus, est soluta quae eum beatae rem! Beatae consequuntur maiores consectetur quae. Qui, id.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos doloribus sit cumque, odit numquam labore quis! Quod repellendus porro animi sit! Quod voluptas ipsa, iste dolorum aliquam maiores a cumque?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam ratione, officiis eius ipsam accusantium pariatur nostrum eos magni, blanditiis, aspernatur provident eligendi saepe praesentium dignissimos quia reiciendis nobis ducimus maxime.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem mollitia qui nostrum saepe quibusdam molestiae minus facere quae perspiciatis magni! Deserunt illo neque fuga quam laboriosam veritatis porro voluptate beatae!
+    </p>
+
+</div>
+<div id="sidebar">
+    <ul>
+        <li><a href="">HOME</a></li>
+        <li><a href="">ABOUT US</a></li>
+        <li><a href="">GALLERY</a></li>
+        <li><a href="">CONTACT US</a></li>
+    </ul>
+</div>
+<div id="footer">
+    info@londontravel.pk
+</div>
+</div>
+<br>
+<center>
+<div class="afa">
+    <a href="index.html">HOME</a>
+</div>
+</center>
+
+</body>
+</html>

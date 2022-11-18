@@ -1,0 +1,2934 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+    <link rel="stylesheet" href="./index_files/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    
+<title>HOME</title><style>
+        html{
+  scroll-behavior: smooth;
+}
+        body{
+            background-color:darkcyan;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+section{
+  width: 100%;
+  height: 300vh;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+}
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: orange;
+  bottom: 0px;
+  right: 0px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+        #Shadow{
+            width: 150px;
+            height: 200px;
+            margin: 20px;
+            border: 5px  solid black;
+            background-color: orange;
+            box-shadow:-7px 7px 5px darkorange,7px 7px 5px darkorange; 
+        }
+        #first{
+            width:500px;
+            border: 5px solid black;
+            float: left;
+            margin-right: 10px;
+            background-color: orange;
+        }
+        #second{
+            width: 500px;
+            border: 5px solid black;
+            float: left;
+            margin-right: 10px;
+            background-color: orange;
+        }
+        #third{
+            width: 200px;
+            border: 5px solid black;
+            float: left;
+            background-color: orange;
+        }
+        #box{
+            width: 400px;
+            border: 5px solid black;
+            float: left;
+            background-color: orange;
+        }
+        #box2{
+            width: 400px;
+            border: 5px solid black;
+            float: right;
+            background-color: orange;
+        }
+        #box3{
+            width: 99.4;
+            border: 5px solid black;
+            float: left;
+            background-color: orange;
+            clear: left;
+        }
+        .lenghtorfont{
+            width: 400px;
+            padding: 25px;
+            border: 5px solid black;
+            background-color: orange;
+        }
+        .text-indent{
+            width: 400px;
+            padding: 25px;
+            border: 5px solid black;
+            text-indent: 50px;
+            background-color: orange ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .text-align{
+            width: 400px;
+            padding: 25px;
+            border: 5px solid black;
+            text-align: justify;
+            text-align-last: right;
+            background-color: orange ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .text-transform{
+            width: 400px;
+            padding: 25px;
+            border: 5px solid black;
+            text-transform: uppercase;
+            background-color: orange ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .letter{
+            width: 400px;
+            padding: 25px;
+            border: 5px solid black;
+            letter-spacing: 20px;
+            background-color: orange ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .word{
+            width: 400px;
+            padding: 25px;
+            border: 5px solid black;
+            word-spacing: 20px;
+            background-color: orange ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .decor{
+
+            width: 400px;
+            padding: 25px;
+            border: 5px solid black;
+            background-color: orange ;
+            text-decoration-line: overline;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .underline{
+            width: 400px;
+            padding: 25px;
+            border: 5px solid black;
+            background-color: orange ;
+            text-decoration-line: underline;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .line-thr{
+            width: 400px;
+            padding: 25px;
+            border: 5px solid black;
+            background-color: orange ;
+            text-decoration-line: line-through;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .che{
+            width: 400px;
+            text-decoration-style: dotted;
+            text-decoration-line: underline;
+            background-color: orange;
+            border: 5px solid black;
+            padding: 25px;
+            word-spacing: 20px;
+        }
+        .dash{
+            width: 400px;
+            text-decoration-style: dashed;
+            text-decoration-line: underline;
+            background-color: orange;
+            border: 5px solid black;
+            padding: 25px;
+            word-spacing: 20px;
+        }
+        .dbl{
+            width: 400px;
+            text-decoration-style: double;
+            text-decoration-line: underline;
+            background-color: orange;
+            border: 5px solid black;
+            padding: 25px;
+            word-spacing: 20px;
+        }
+        .sld{
+            width: 400px;
+            text-decoration-style: solid;
+            text-decoration-line: underline;
+            background-color: orange;
+            border: 5px solid black;
+            padding: 25px;
+            word-spacing: 20px;
+        }
+        .wvy{
+            width: 400px;
+            text-decoration-style: wavy;
+            text-decoration-line: underline;
+            background-color: orange;
+            border: 5px solid black;
+            padding: 25px;
+            word-spacing: 20px;
+        }
+        .wrp{
+            width: 400px;
+            background-color: orange;
+            border: 5px solid black; 
+            word-wrap: break-word;
+            padding: 20px;
+        }
+        .brkall{
+            width: 400px;
+            background-color: orange;
+            border: 5px solid black;
+            word-break: break-all;
+            padding: 20px;
+        }
+        .kepall{
+            width: 400px;
+            background-color: orange;
+            border: 5px solid black;
+            word-break: keep-all;
+            padding: 20px;
+        }
+        .txtsdw{
+            width: 400px;
+            height: 115px;
+            background-color: orange;
+            border: 5px solid black;    
+            padding: 20px;
+        }
+        .fnt{
+            font-size: 40px;
+            text-shadow: 2px 2px 5px black;
+            font-family: Arial, Helvetica, sans-serif;
+           
+        }
+        .fnt2{
+            width: 400px;
+            height: 115px;
+            border: 5px solid black;
+            background-color: orange;
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 20px;
+            text-shadow: 2px 2px 5px black;
+        }
+       
+    .signup{
+            width: 400px;
+            height: 210px;
+            border: 5px solid black;
+            background-color: orange;
+                }
+    .emlbox {
+                    border-radius: 20px;
+                    width: 350px;
+                    height: 25px;
+                    border: 2px solid orange;
+                    padding-left: 5px;
+                }
+.pwdbox{
+            width: 350px;
+            height: 25px;
+            border-radius: 20px;
+            border: 2px solid orange;
+                    padding-left: 5px;
+}
+.sumbit{
+    width: 200px;
+    height: 20px;
+    padding-top: 5px;
+}
+.whitesp{
+    width: 400px;
+    padding: 25px;
+    border: 2px solid black;
+    background-color: orange;
+    white-space: nowrap;
+}
+.whitesp-pre{
+    width: 400px;
+    padding: 25px;
+    border: 2px solid black;
+    background-color: orange;
+    white-space: pre;
+}
+.whitesp-preline{
+    width: 400px;
+    padding: 25px;
+    border: 2px solid black;
+    background-color: orange;
+    white-space: pre-line;
+}
+.whitesp-prewrap{
+    width: 400px;
+    padding: 25px;
+    border: 2px solid black;
+    background-color: orange;
+    white-space: pre-wrap;
+}
+.whitesp2{
+    width: 400px;
+    padding: 25px;
+    border: 2px solid black;
+    background-color: orange;
+    white-space: normal;
+    text-overflow: ellipsis;
+}
+.write-mode{
+    width: 200px;
+    border: 2px solid black;
+    background-color: orange;
+    padding: 25px;
+    writing-mode: vertical-rl;
+}
+.write-mode-lr{
+    width: 200px;
+    border: 2px solid black;
+    background-color: orange;
+    padding: 25px;
+    writing-mode: vertical-lr;
+}
+.write-mode-sd-rl{
+    width: 200px;
+    border: 2px solid black;
+    background-color: orange;
+    padding: 25px;
+    writing-mode: sideways-rl;
+}
+.write-mode-sd-lr{
+    width: 200px;
+    border: 2px solid black;
+    background-color: orange;
+    padding: 25px;
+    writing-mode: sideways-lr ;
+}
+.clmcnt{
+    border: 2px solid black;
+    background-color: orange;
+    padding: 25px;
+    column-count: 3;
+}
+.clmgap{
+    border: 2px solid black;
+    background-color: orange;
+    padding: 25px;
+    column-count: 3;
+    column-gap: 50px;
+}
+.clmrule{
+    border: 2px solid black;
+    background-color: orange;
+    padding: 25px;
+    column-count: 3;
+    column-rule-width: 3px;
+    column-rule-style: solid;
+    column-rule-color: darkcyan;
+}
+.clmrwdt{
+    border: 2px solid black;
+    background-color: orange;
+    padding: 25px;
+    column-gap: 50px;
+    width: 1000px;
+    column-width: 150px;
+    column-rule-width: 3px;
+    column-rule-style: double;
+    column-rule-color: darkcyan;
+}
+.clmspan{
+    border: 2px solid black;
+    background-color: orange;
+    padding: 25px;
+    column-gap: 50px;
+    width: 1000px;
+    column-width: 150px;
+    column-rule-width: 3px;
+    column-rule-style: double;
+    column-rule-color: darkcyan;   
+}
+h2{
+    column-span: none;
+}
+#mixb{
+    width: 180px;
+    height: 180px;
+    border: 2px solid black;
+    background-image: url(LT.jpg);
+}
+.hy{
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+    mix-blend-mode: screen;
+}
+.ovly{
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+    mix-blend-mode: overlay;
+}
+.mtply{
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+    mix-blend-mode: multiply;
+}
+.clr-ddg{
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+    mix-blend-mode: color-dodge;
+}
+.diff{
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+    mix-blend-mode: difference;   
+}
+.hue{
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+    mix-blend-mode: hue;  
+}
+.clr{
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+    mix-blend-mode: color;  
+}
+.clr-brn{ 
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+    mix-blend-mode: color-burn;
+}
+.hrd-lgt{
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+    mix-blend-mode: hard-light;
+}
+.mixb3{
+    width: 180px;
+    height: 180px;
+    border: 5px solid black;
+    background-color: red;  
+    mix-blend-mode: overlay;
+}
+.mixb4{
+    width: 180px;
+    height: 180px;
+    border: 5px solid black;
+    background-image: linear-gradient(to right,red,yellow); 
+}
+#list{
+    list-style-type: circle;
+    width: 100px;
+    height: 120px;
+    border: 2px solid black;
+    background-color: orange;
+}
+#list2{
+    list-style-type: square;
+    width: 100px;
+    height: 120px;
+    border: 2px solid black;
+    background-color: orange;
+}
+#list3{
+    list-style-type: disc;
+    width: 100px;
+    height: 120px;
+    border: 2px solid black;
+    background-color: orange;
+}
+#list4{
+    list-style-type: none;
+    width: 100px;
+    height: 120px;
+    border: 2px solid black;
+    background-color: orange;
+}
+#list5{
+    list-style-type: upper-alpha;
+    width: 100px;
+    height: 120px;
+    border: 2px solid black;
+    background-color: orange;
+}
+#list6{
+    list-style-type: lower-alpha;
+    width: 100px;
+    height: 120px;
+    border: 2px solid black;
+    background-color: orange;
+}
+#list7{
+    list-style-type: upper-roman;
+    width: 100px;
+    height: 120px;
+    border: 2px solid black;
+    background-color: orange;
+}
+#list8{
+    list-style-type: lower-roman;
+    width: 100px;
+    height: 120px;
+    border: 2px solid black;
+    background-color: orange;
+}
+#list9{
+    list-style-type: decimal;
+    width: 100px;
+    height: 120px;
+    border: 2px solid black;
+    background-color: orange;
+}
+#list10{
+    list-style-type: decimal-leading-zero;
+    width: 100px;
+    height: 120px;
+    border: 2px solid black;
+    background-color: orange;
+}
+.bg{
+    border: 2px solid black;
+    width: 750px;
+    height: 220px;
+    background-image:url('i567k_.jpeg');
+    background-size: 90px;
+    background-color: orange;
+}
+.bg2{
+    border: 2px solid black;
+    width: 750px;
+    height: 220px;
+    background-image:url('i567k_.jpeg');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-color: orange;
+}
+.bg3{
+    border: 2px solid black;
+    width: 750px;
+    height: 220px;
+    background-image:url('i567k_.jpeg');
+    background-size: 90px;
+    background-repeat: repeat-x;
+    background-color: orange;
+}
+.bg4{
+    border: 2px solid black;
+    width: 750px;
+    height: 220px;
+    background-image:url('i567k_.jpeg');
+    background-size: 90px;
+    background-repeat: repeat-y;
+    background-color: orange;
+}
+.bg5{
+    border: 2px solid black;
+    width: 750px;
+    height: 220px;
+    background-image:url('i567k_.jpeg');
+    background-size: 90px;
+    background-repeat: space;
+    background-color: orange;
+}
+.bg6{
+    border: 2px solid black;
+    width: 750px;
+    height: 220px;
+    background-image:url('i567k_.jpeg');
+    background-size: 90px;
+    background-repeat: round;
+    background-color: orange;
+}
+.bapo{
+    border: 2px solid black;
+    width: 750px;
+    height: 220px;
+    background-image:url('i567k_.jpeg');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: orange;
+}
+.bapo2{
+    border: 2px solid black;
+    width: 750px;
+    height: 220px;
+    background-image:url('i567k_.jpeg');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: orange;
+}
+.bapo3{ border: 2px solid black;
+    background-color: orange;
+    width: 750px;
+    height: 220px;
+    background-image:url('i567k_.jpeg');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    }
+.bapo4{ border: 2px solid black;
+    background-color: orange;
+    width: 750px;
+    height: 220px;
+    background-image:url('i567k_.jpeg');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    }
+.bapo5{ border: 2px solid black;
+    background-color: orange;
+    width: 750px;
+    height: 220px;
+    background-image:url('i567k_.jpeg');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+.bapo6{ border: 2px solid black;
+    background-color: orange;
+    width: 750px;
+    height: 220px;
+    background-image:url('i567k_.jpeg');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    }
+    .bapo7{ border: 2px solid black;
+        background-color: orange;
+    width: 750px;
+    height: 220px;
+    background-image:url('i567k_.jpeg');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    }
+    .bapo8{ border: 2px solid black;
+        background-color: orange;
+    width: 750px;
+    height: 220px;
+    background-image:url('i567k_.jpeg');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    }
+    .bapo9{ border: 2px solid black;
+        background-color: orange;
+    width: 750px;
+    height: 220px;
+    background-image:url('i567k_.jpeg');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    }
+    .bapo10{
+     border: 2px solid black;
+     background-color: orange;
+    width: 750px;
+    height: 220px;
+    background-image:url('i567k_.jpeg'), url('image.png');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: 9% 10%, 1% 20%;
+    }
+    .attfix{
+        border: 2px solid black;
+     background-color: orange;
+    width: 750px;
+    height: 900px;
+    background-image:url('i567k_.jpeg');
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    }
+    .bs{
+        width: 800px;
+        height: 200px;
+        padding: 15px;
+        border: 2px solid black;
+        background-image:url('i567k_.jpeg');
+        background-size: 250px 250px;
+        background-repeat: no-repeat;
+    }
+    .bs2{
+        width: 800px;
+        height: 200px;
+        padding: 15px;
+        border: 2px solid black;
+        background-image:url('i567k_.jpeg');
+        background-size: 40%;
+        background-repeat: no-repeat;
+    }
+    .bs3{
+        width: 800px;
+        height: 200px;
+        padding: 15px;
+        border: 2px solid black;
+        background-image:url('i567k_.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bs4{
+        width: 800px;
+        height: 200px;
+        padding: 15px;
+        border: 2px solid black;
+        background-image:url('i567k_.jpeg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .org{
+        width: 800px;
+        height: 250px;
+        padding: 15px;
+        border: 2px solid black;
+        background-image:url('i567k_.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-origin: content-box;
+    }
+    .org2{
+        width: 800px;
+        height: 250px;
+        padding: 15px;
+        border: 2px solid black;
+        background-image:url('i567k_.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-origin: padding-box;
+        color: orange;
+    }
+    .org1{
+        width: 800px;
+        height: 250px;
+        padding: 15px;
+        border: 2px solid black;
+        background-image:url('i567k_.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-origin: border-box;
+        color: orange;
+    }
+    p{
+        margin: 0;
+    }
+   .clp{ width: 800px;
+        height: 270px;
+        padding: 50px;
+        border: 20px dotted black;
+        background-origin: border-box;
+        text-align: justify;
+        background-clip: content-box ;
+        background-color: orange;
+    }
+    .clp1{ width: 800px;
+        height: 270px;
+        padding: 50px;
+        border: 20px dotted black;
+        background-origin: border-box;
+        text-align: justify;
+        background-clip: padding-box ;
+        background-color: orange;
+    }
+    .clp2{ width: 800px;
+        height: 270px;
+        padding: 50px;
+        border: 20px dotted black;
+        background-origin: border-box;
+        text-align: justify;
+        background-clip: border-box ;
+        background-color: orange;
+    }
+    .wetr{
+        color: transparent;
+        background-image: url("KL2.jpg");
+        font-size: 150px;
+        font-family: impact;
+        -webkit-background-clip: text;
+        margin: 0;
+    }
+ .grd-lin{
+    width: 800px;
+    height: 270px;
+    padding: 30px;
+    border: 5px solid black;
+    background: linear-gradient(to top,orange,darkcyan);
+ }
+ .grd-lin2{
+    width: 800px;
+    height: 270px;
+    padding: 30px;
+    border: 5px solid black;
+    background: linear-gradient(to bottom,orange,darkcyan);
+ }
+ .grd-lin3{
+    width: 800px;
+    height: 270px;
+    padding: 30px;
+    border: 5px solid black;
+    background: linear-gradient(to right,orange,darkcyan);
+ }
+ .grd-lin4{
+    width: 800px;
+    height: 270px;
+    padding: 30px;
+    border: 5px solid black;
+    background: linear-gradient(to left,orange,darkcyan);
+ }
+ .grd-lin5{
+    width: 800px;
+    height: 270px;
+    padding: 30px;
+    border: 5px solid black;
+    background: repeating-linear-gradient(orange,darkcyan 10%,yellow 20%);
+ }
+ .grd-rad{
+    width: 800px;
+    height: 270px;
+    padding: 30px;
+    border: 5px solid black;
+    background: radial-gradient(yellow 10%,darkcyan,orange);
+ }
+ .grd-rad1{
+    width: 800px;
+    height: 270px;
+    padding: 30px;
+    border: 5px solid black;
+    background: radial-gradient(circle,yellow 10%,darkcyan,orange);
+ }
+ .grd-rad2{
+    width: 800px;
+    height: 270px;
+    padding: 30px;
+    border: 5px solid black;
+    background: radial-gradient(closest-side at 50% 50%,yellow 10%,darkcyan,orange);
+ }
+ .grd-rad3{
+    width: 800px;
+    height: 270px;
+    padding: 30px;
+    border: 5px solid black;
+    background: radial-gradient(farthest-side at 90% 20%,yellow 10%,darkcyan,orange);
+ }
+ .grd-rad4{
+    width: 800px;
+    height: 270px;
+    padding: 30px;
+    border: 5px solid black;
+    background: radial-gradient(closest-corner at 50% 50%,yellow 10%,darkcyan,orange);
+ }
+ .grd-rad5{
+    width: 800px;
+    height: 270px;
+    padding: 30px;
+    border: 5px solid black;
+    background: radial-gradient(farthest-corner at 90% 20%,yellow 10%,darkcyan,orange);
+ }
+ .grd-rad6{
+    width: 800px;
+    height: 270px;
+    padding: 30px;
+    border: 5px solid black;
+    background: repeating-radial-gradient(red,darkcyan 10%,orange 15%)
+ }
+
+ .opy{
+    width: 800px;
+    height: 200px;
+    border: 5px solid black;
+    padding: 30px;
+margin-bottom: 15px;
+opacity: 0.5;
+background: orange;
+ }
+ .opy1{
+    width: 800px;
+    height: 200px;
+    border: 5px solid black;
+    padding: 30px;
+margin-bottom: 15px;
+background: rgba(0, 0, 0,0.5)
+}
+.blend{
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    background-image: linear-gradient(to right, red, orange), url("i567k_.jpeg");
+    background-blend-mode: screen;
+    background-size: 250px 250px;
+}
+.blend1{
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    background-image: linear-gradient(to right, red, orange), url("i567k_.jpeg");
+    background-blend-mode: darken;
+    background-size: 250px 250px;
+}
+.blend2{
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    background-image: linear-gradient(to right, red, orange), url("i567k_.jpeg");
+    background-blend-mode: color-dodge;
+    background-size: 250px 250px;
+}
+.blend3{
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    background-image: linear-gradient(to right, red, orange), url("i567k_.jpeg");
+    background-blend-mode: difference;
+    background-size: 250px 250px;
+}
+.blend4{
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    background-image: linear-gradient(to right, red, orange), url("i567k_.jpeg");
+    background-blend-mode: color;
+    background-size: 250px 250px;
+}
+#dspnn{
+    width: 100px;
+    height: 280px;
+    border: 5px solid black;
+    background-color: orange;
+    padding: 10px;
+}
+#dspnn2{
+    width: 250px;
+    border: 5px solid black;
+    background-color: orange;
+    padding: 10px;
+}
+#li2{
+    display: inline;
+}
+.spn{
+    display: block;
+    width: 250px;
+  border: 5px solid black; 
+  padding: 10px;
+background-color: orange;
+margin: 10px;
+}
+a{
+    width: 250px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+    display: block;
+    background-color: orange;
+}
+.inli{
+  background-color: orange;
+  border: 5px solid black;
+  display: inline-block;
+}
+.spn{
+    display: list-item;
+    width: 250px;
+  border: 5px solid black; 
+  padding: 10px;
+background-color: orange;
+margin: 10px;
+list-style-position: inside;
+}
+.uapw{
+    width: 250px;
+    height: 605px;
+    border: 5px solid black;
+    background-color: orange;
+    padding: 10px;
+    margin: 10px;
+}
+ul.vis{
+    visibility: hidden;
+}
+td.rev{
+    visibility: collapse;
+}
+.afa a{
+    text-decoration: none;
+    color: white;
+}
+.afa a:hover{
+    background-color: black;
+    color: white;
+}
+.posi{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: orange;
+    padding: 10px;
+    position: relative;
+    left: 500px;
+}
+.posiabd{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: orange;
+    padding: 10px;
+    position: relative;
+    left: 500px;    
+}
+.posifx{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: red;
+left: 10px;
+    position: relative;
+}
+#za{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 5px solid black;
+    background: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#za2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 5px solid black;
+    background: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 100px;
+    left: 50px;
+}
+#za3{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 5px solid black;
+    background: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 150px;
+    left: 100px;
+}
+#za4{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 5px solid black;
+    background: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 200px;
+    left: 150px;
+}
+table, td, th{
+    border: 1px solid black;
+}
+#tbbs{
+    border-spacing: 40px;
+    background-color: orange;
+}
+#tbbs1{
+    background-color: orange;
+    border-collapse: collapse;
+}
+#ttbs2{
+    background-color: orange;
+    border-collapse: separate;
+}
+#vsa{
+    background-color: orange;
+    width: 300px;
+    border-collapse: collapse;
+
+}
+td{
+    vertical-align: bottom;
+    background: orange;
+}
+caption{
+    caption-side: top;
+    background: orange;
+}
+#tesa{
+    empty-cells: hide;
+    background: orange;
+}
+#tesa2{
+    width: 300px;
+    padding: 25px;
+    table-layout: fixed;
+    background: orange;
+}
+#rediv{
+    border: 5px solid black;
+    background: orange;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+overflow: auto;
+    resize: vertical;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#rediv2{
+    border: 5px solid black;
+    background: orange;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+overflow: auto;
+    resize: horizontal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#cus{
+    border: 5px solid black;
+    background-color: orange;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    cursor:help;
+}
+#cus2{
+    border: 5px solid black;
+    background-color: orange;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    cursor:pointer;
+}
+#cus3{
+    border: 5px solid black;
+    background-color: orange;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    cursor:progress;
+}
+#cus4{
+    border: 5px solid black;
+    background-color: orange;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    cursor:wait;
+}
+#cus5{
+    border: 5px solid black;
+    background-color: orange;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    cursor:cell;
+}
+#cus6{
+    border: 5px solid black;
+    background-color: orange;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    cursor:crosshair;
+}
+#cus7{
+    border: 5px solid black;
+    background-color: orange;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    cursor:text;
+}
+#cus8{
+    border: 5px solid black;
+    background-color: orange;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    cursor:vertical-text;
+}
+#cus9{
+    border: 5px solid black;
+    background-color: orange;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    cursor:alias;
+}
+#mor{
+    border: 5px solid black;
+    background-color: orange;
+    text-align: center;
+    width: 150px;
+    height: 70px;  
+}
+#calao{
+    background-color: orange;
+    width: 100%;
+    height: 100px;
+}
+#calao2{
+    background-color: darkorange;
+    width: 100%;
+    height: calc(100vh - 200px);
+}
+#calao3{
+    background-color: rgb(145, 85, 12);
+    width: 100%;
+    height: 100px;
+}
+.rnd{
+    clip-path: circle(25% at 45%);
+}
+.rnd1{
+    clip-path: ellipse(10% 40% at 50% 50%);
+}
+.rnd2{
+    clip-path: inset(5% 20% 30%);
+}
+.rnd3{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%)
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+#hre a {
+    text-decoration: none;
+    color: white;
+}
+#sde{
+    float: left;
+    clip-path: circle(38% at 50% 40%);
+    shape-outside: circle(38% at 50% 40%);
+    shape-margin: 20px;
+}
+.fil{
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    background-image:  url("i567k_.jpeg");
+    filter: blur(2px);
+    background-size: 250px 250px;
+}
+.fil2{
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    background-image:  url("i567k_.jpeg");
+    filter: brightness(20px);
+    background-size: 250px 250px;
+}
+.fil3{
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    background-image:  url("i567k_.jpeg");
+    filter: contrast(0px);
+    background-size: 250px 250px;
+}
+.fil4{
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    background-image:  url("i567k_.jpeg");
+    filter: drop-shadow(150px);
+    background-size: 250px 250px;
+}
+#hov{
+    width: 150px;
+    height: 150px;
+    background: orange;
+    border: solid black;
+    transition-property: all;
+    transition-duration: 2s;
+}
+#hov:hover{
+width: 1342px;
+background: red;
+}
+#rte{
+    width: 600px;
+    height: 200px;
+    border: 5px solid black;
+    background-color: orange;
+    transform: rotate(5deg);
+}
+#rte2{
+    width: 600px;
+    height: 200px;
+    border: 5px solid black;
+    background-color: orange;
+    transform: skewX(40deg);
+}
+#rte3{
+    width: 600px;
+    height: 200px;
+    border: 5px solid black;
+    background-color: orange;
+    transform: skewY(9deg);
+}
+#rte4{
+    width: 600px;
+    height: 200px;
+    border: 5px solid black;
+    background-color: orange;
+
+}
+#rte4:hover{
+    transform: ScaleX(2);
+    background: red;
+}
+#rte5{
+    width: 600px;
+    height: 200px;
+    border: 5px solid black;
+    background-color: orange;
+}
+#rte5:hover{
+    transform: scaleY(2);
+    background: red;
+}
+#rte6{
+    width: 600px;
+    height: 200px;
+    border: 5px solid black;
+    background-color: orange;
+    transform: translate(0,0);
+    transition: transform 1s;
+    transform-origin:left top;
+}
+#rte6:hover{
+    transform:translate(250px,1px) ;
+    background: red;
+}
+.base{
+    width: 350px;
+    height: 250px;
+    background-color: grey;
+}
+#threed{
+    width: 350px;
+    height: 250px;
+    background-color: orange;
+    transform: perspective(800px) rotateX(60deg);
+}
+#threed2{
+    width: 350px;
+    height: 250px;
+    background-color: orange;
+    transform: perspective(800px) rotateY(60deg);
+}
+#threed3{
+    width: 350px;
+    height: 250px;
+    background-color: orange;
+    transform: perspective(800px) rotateZ(10deg);
+}
+#threed4{
+    width: 350px;
+    height: 250px;
+    background-color: orange;
+    transform: rotateX(60deg);
+}
+.parent{
+    width: 350px;
+    height: 250px;
+    background-color: grey;
+    perspective: 800px;
+    transform: rotateY(30deg);
+    transform-style: preserve-3d;
+}
+#btn{
+    text-decoration: none;
+}
+#anima{
+    width: 300px;
+    height: 300px;
+   background: orange;
+   position: absolute;
+   color: darkblue;
+   text-align: center;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+   animation-name: sample;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-direction: reverse;
+}
+#anima2{
+    width: 300px;
+    height: 300px;
+   background: orange;
+   position: absolute;
+   color: darkblue;
+   text-align: center;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+   animation-name: sample;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   margin-left: 500px;
+}
+#anima3{
+    width: 300px;
+    height: 300px;
+   background: orange;
+   position: absolute;
+   color: darkblue;
+   text-align: center;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+   animation-name: sample2;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+   margin-left: 500px;
+   margin-top: -315px;
+}
+@keyframes sample{
+    from{ border-radius: 0%;}
+    to{ border-radius: 50%;}
+}
+@keyframes sample2{
+    0%{ border-radius: 0%;}
+    100%{ border-radius: 50%; background-color: rebeccapurple;}
+}
+.fillmode{
+    width: 250px;
+    height: 250px;
+    background:orange ;
+    animation:fillmode 4s 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes fillmode{
+    0%{background: yellow; width: 450px; }
+    250%{background: purple; width: 550px; }
+    50%{background: darkblue; width: 650px; }
+    75%{background: darkturquoise; width: 750px; }
+    90%{background: pink; width: 850px; }
+    100%{background: orange; width: 100%; }
+}
+.fillmode2{
+    width: 250px;
+    height: 250px;
+    background:orange ;
+    animation:fillmode 4s 1s;
+    animation-fill-mode: backwards;
+}
+.fillmode3{
+    width: 250px;
+    height: 250px;
+    background:orange ;
+    animation:fillmode 4s 1s;
+    animation-fill-mode: both;
+}
+.playstate{
+    width: 250px;
+    height: 250px;
+    background-:orange;
+    animation: playstate 4s 1s;
+}
+.playstate:hover{
+    animation-play-state: paused;
+}
+.playstate2{
+    width: 250px;
+    height: 250px;
+    background-:orange;
+    animation: playstate 4s 1s;
+}
+.playstate2:hover{
+    animation-play-state: running;
+}
+.playstate3{
+    width: 250px;
+    height: 250px;
+    background-:orange;
+    animation: playstate 4s 1s;
+    animation-play-state: paused;
+}
+.playstate3:hover{
+    animation-play-state: running;
+}
+#pseudo{
+    width: 510px;
+    height: 270px;
+    background: orange;
+}
+#pseudo2{
+    width: 510px;
+    height: 270px;
+    background: orange;
+}
+#pseudo3{
+    width: 510px;
+    height: 270px;
+    background: orange;
+}
+#pseudo li:first-child{
+    color: turquoise;
+}
+#pseudo2 li:last-child{
+    color: white;
+}
+#pseudo3 li:nth-child(3)
+@keyframes playstate{
+    0%{background: yellow; width: 450px; }
+    250%{background: purple; width: 550px; }
+    50%{background: darkblue; width: 650px; }
+    75%{background: darkturquoise; width: 750px; }
+    90%{background: pink; width: 850px; }
+    100%{background: orange; width: 100%; }
+}
+#usr{
+    width: 500px;
+    height: 430px;
+    background: orange;
+    color: darkblue;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 30px;
+    user-select: none;
+}
+#usr1{
+    width: 500px;
+    height: 430px;
+    background: orange;
+    color: darkblue;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 30px;
+    user-select: all;
+}
+#usr2{
+    width: 500px;
+    height: 430px;
+    background: orange;
+    color: darkblue;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 30px;
+    user-select: text;
+}
+#usr3{
+    width: 500px;
+    height: 430px;
+    background: orange;
+    color: darkblue;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 30px;
+    user-select: auto;
+}
+#spen{
+    background-image: linear-gradient(orange,red);
+    font-size: 22px;
+    line-height:  60px;
+    color: white;
+    border: 5px solid white;
+    -webkit-box-decoration-break: clone;
+    padding: 10px;
+}
+#spen2{
+    background-image: linear-gradient(orange,red);
+    font-size: 22px;
+    line-height:  60px;
+    color: white;
+    border: 5px solid white;
+    -webkit-box-decoration-break: slice;
+    padding: 10px;
+}
+q{
+    quotes: "$" "@";
+    background: orange;
+    font-size: 40px;
+    border: 3px solid black;
+}
+#imgbx{
+    width: 350px;
+    height: 350px;
+    border: 30px solid black;
+    text-align: justify;
+    padding: 20px;
+    border-image: linear-gradient(red,yellow);
+    border-image-slice: 16 10   ;
+    border-image-repeat: stretch;
+}
+</style><script src="./index_files/jquery.min.js.download"></script><script>
+$(window).scroll(function() {
+    console.log('test');
+    if ($(this).scrollTop() > 75) {
+    	$('.gotopbtn').fadeIn();
+       
+    } else {
+      $('.gotopbtn').fadeOut();
+    }
+}).trigger('scroll');
+</script></head>
+    <body>
+    <a class="gotopbtn" href="file:///C:/Users/Waleed/Desktop/Practice/index.html#" style=""> <i class="fas fa-arrow-up" aria-hidden="true"></i> </a>   
+      <center><div class="header"><h1>NavBar</h1></div></center>
+        <div class="navbar">
+            <ul>
+                <li><a href="file:///C:/Users/Waleed/Desktop/Practice/index.html#">Home</a></li>
+                <li><a href="file:///C:/Users/Waleed/Desktop/Practice/index.html#">About</a></li>
+                <li><a href="file:///C:/Users/Waleed/Desktop/Practice/index.html#">Contact</a></li>
+                <li><a href="file:///C:/Users/Waleed/Desktop/Practice/index.html#">Players</a></li>
+            </ul>
+        </div>
+        <center>
+   <h1>Hello : CSS Box Shadow Useage</h1>
+   <div id="Shadow">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, vero! Nobis illo quas explicabo!
+    Laborum modi repellat magni, voluptatem, est, dolores fugit ad hic ipsa aspernatur dolore assumenda
+    expedita illo!
+   </div>
+   <h1>CSS Float</h1>
+   <div id="first">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, vero! Nobis illo quas explicabo!
+    Laborum modi repellat magni, voluptatem, est, dolores fugit ad hic ipsa aspernatur dolore assumenda
+    expedita illo
+   </div>
+   <div id="second">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, vero! Nobis illo quas explicabo!
+    Laborum modi repellat magni, voluptatem, est, dolores fugit ad hic ipsa aspernatur dolore assumenda
+    expedita illo!
+   </div>
+   <div id="third">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, vero! Nobis illo quas explicabo!
+    Laborum modi repellat magni, voluptatem, est, dolores fugit ad hic ipsa aspernatur dolore assumenda
+    expedita illo!
+   </div>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <h1>CSS : Clear Value</h1>
+   <div id="box">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, vero! Nobis illo quas explicabo!
+    Laborum modi repellat magni, voluptatem, est, dolores fugit ad hic ipsa aspernatur dolore assumenda
+    expedita illo! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, vero! Nobis illo quas explicabo!
+    Laborum modi repellat magni, voluptatem, e Lorem  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, vero! Nobis illo quas explicabo!
+    Laborum modi repellat magni, voluptatem, e Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, vero! Nobis illo quas explicabo!
+    Laborum modi repellat magni, voluptatem, e Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, vero! Nobis illo quas explicabo!
+    Laborum modi repellat magni, voluptatem, eipsum dolor sit, amet consectetur adipisicing elit. Ea, vero! Nobis illo quas explicabo!
+   </div>
+   <div id="box2">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, vero! Nobis illo quas explicabo!
+    Laborum modi repellat magni, voluptatem, est, dolores fugit ad hic ipsa aspernatur dolore assumenda
+    expedita illo!
+   </div>
+   <div id="box3">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, vero! Nobis illo quas explicabo!
+    Laborum modi repellat magni, voluptatem, est, dolores fugit ad hic ipsa aspernatur dolore assumenda
+    expedita illo!
+   </div>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <h1>CSS : Clear Fonts</h1>
+   <div class="lenghtorfont">
+    Lorem ipsum dolor sit amet consectetur,adipisicing elit. Quod quibusdam architecto delectus ad eaque neque libero,
+    earum magnam. Nemo maiores perspiciatis beatae voluptatum qui quas! Eius, corporis dolorum. Voluptatum, inventore?
+   </div>
+   <h1>CSS : Text Formatting</h1>
+   <h3> *Text Indent</h3>
+   <div class="text-indent">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque id accusantium libero corporis molestiae voluptas expedita
+tempore quae, cum veritatis explicabo vero adipisci provident sequi deserunt assumenda perspiciatis quasi placeat!
+</div>
+<h3> *Text Align</h3>
+<div class="text-align">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque id accusantium libero corporis molestiae voluptas expedita
+    tempore quae, cum veritatis explicabo vero adipisci provident sequi deserunt assumenda perspiciatis quasi placeat!
+    </div>
+    <h3> *Text Transform</h3>
+    <div class="text-transform">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque id accusantium libero corporis molestiae voluptas expedita
+        tempore quae, cum veritatis explicabo vero adipisci provident sequi deserunt assumenda perspiciatis quasi placeat!
+        </div>
+<h3>Letter Spacing</h3>
+        <div class="letter">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque id accusantium libero corporis molestiae voluptas expedita
+            tempore quae, cum veritatis explicabo vero adipisci provident sequi deserunt assumenda perspiciatis quasi placeat!
+            </div>
+            <h3>Word Spacing</h3>
+        <div class="word">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque id accusantium libero corporis molestiae voluptas expedita
+            tempore quae, cum veritatis explicabo vero adipisci provident sequi deserunt assumenda perspiciatis quasi placeat!
+            </div>
+            <hr>
+            <h1>CSS : Text Decoration</h1>
+            <h3>Overline</h3>
+<div class="decor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit libero assumenda ipsam necessitatibus consequatur ipsa iure placeat.
+Corporis vel dolorum dolores veritatis nemo alias commodi quia. Quia id recusandae amet.
+</div>
+
+<h3>Underline</h3>
+<div class="underline">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit libero assumenda ipsam necessitatibus consequatur ipsa iure placeat.
+    Corporis vel dolorum dolores veritatis nemo alias commodi quia. Quia id recusandae amet.
+</div>
+<h3>Line Through</h3>
+<div class="line-thr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit libero assumenda ipsam necessitatibus consequatur ipsa iure placeat.
+    Corporis vel dolorum dolores veritatis nemo alias commodi quia. Quia id recusandae amet.
+</div>
+<hr>
+<h1>CSS : Text Decoration Style</h1>
+<h3>Dotted</h3>
+<div class="che">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit libero assumenda ipsam necessitatibus consequatur ipsa iure placeat.
+    Corporis vel dolorum dolores veritatis nemo alias commodi quia. Quia id recusandae amet.
+    </div>
+    <h3>Dashed</h3>
+<div class="dash">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit libero assumenda ipsam necessitatibus consequatur ipsa iure placeat.
+    Corporis vel dolorum dolores veritatis nemo alias commodi quia. Quia id recusandae amet.
+    </div>
+    <h3>Double</h3>
+    <div class="dbl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit libero assumenda ipsam necessitatibus consequatur ipsa iure placeat.
+        Corporis vel dolorum dolores veritatis nemo alias commodi quia. Quia id recusandae amet.
+        </div>
+        <h3>Solid</h3>
+    <div class="sld">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit libero assumenda ipsam necessitatibus consequatur ipsa iure placeat.
+        Corporis vel dolorum dolores veritatis nemo alias commodi quia. Quia id recusandae amet.
+        </div>
+        <h3>Wavy</h3>
+    <div class="wvy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit libero assumenda ipsam necessitatibus consequatur ipsa iure placeat.
+        Corporis vel dolorum dolores veritatis nemo alias commodi quia. Quia id recusandae amet.
+        </div>
+        <hr>
+        <h1>CSS : Word Wrap &amp; Word Break</h1>
+        <h3>Word Break</h3>
+    <div class="wrp">Lorem, ipsum dolor sit ameeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeetttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt consectetur adipisicing elit. Fugit libero assumenda ipsam necessitatibus consequatur ipsa iure placeat.
+        Corporis vel dolorum dolores veritatis nemo alias commodi quia. Quia id recusandae amet.
+        </div>
+        <h3>Break All</h3>
+    <div class="brkall">Lorem, ipsum dolor sit ameeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeetttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt consectetur adipisicing elit. Fugit libero assumenda ipsam necessitatibus consequatur ipsa iure placeat.
+        Corporis vel dolorum dolores veritatis nemo alias commodi quia. Quia id recusandae amet.
+        </div>
+        <h3>Keep All</h3>
+    <div class="kepall">Lorem, ipsum dolor sit ameeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeetttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt consectetur adipisicing elit. Fugit libero assumenda ipsam necessitatibus consequatur ipsa iure placeat.
+        Corporis vel dolorum dolores veritatis nemo alias commodi quia. Quia id recusandae amet.
+        </div>
+        <hr>
+        <h1>CSS : Text Shadow</h1>
+    <div class="txtsdw"><p class="fnt">text</p></div>
+        <p class="fnt2">Shadow</p>
+        <hr>
+        <h1>Sign Up Menu</h1>
+       <div class="signup">
+        <p>Email</p>
+        <input class="emlbox" type="text" placeholder="Email" required="">
+        <br>
+        <p>Password</p>
+        <input class="pwdbox" type="password" placeholder="Password" required="">
+        <br>
+    <a href="file:///C:/Users/Waleed/Desktop/Practice/ded.html"><button class="sumbit">Sumbit</button></a>
+    </div>
+<h1>White Space</h1>
+<h3>NoWrap</h3>
+<div class="whitesp">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto laboriosam
+    itaque, hic quidem totam magnam at consequatur commodi 
+</div>
+<h3>White-Space Pre</h3>
+<div class="whitesp-pre">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio perferendis, laboriosam
+suscipit nostrum quam modi eos repellendus autem consectetur aspernatur, commodi omnis quia earum ut aperiam?
+Eaque cumque quasi nobis.
+</div>
+<h3>White-Space Pre-Line</h3>
+<div class="whitesp-preline">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Odio perferendis, laboriosam
+    suscipit nostrum quam modi eos repellendus autem consectetur 
+    aspernatur, commodi omnis quia earum ut aperiam?
+    Eaque cumque quasi nobis.
+    </div>
+    <h3>White-Space Pre-Wrap</h3>
+    <b><p>Just Nowarp not Work in PreWrap</p></b>
+    <div class="whitesp-prewrap">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Odio perferendis, laboriosam
+        suscipit nostrum quam modi eos repellendus autem consectetur 
+        aspernatur, commodi omnis quia earum ut aperiam?
+        Eaque cumque quasi nobis.
+        </div>
+        <h1>Text Overflow Values</h1>
+        <h3>Ellipsis</h3>
+        <div class="whitesp2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto laboriosam
+            itaque, hic quidem totam magnam at consequatur commodi 
+        </div>
+ 
+    <h1>Writing-Mode</h1>
+    <h3>Vertical-RL</h3>
+<div class="write-mode">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+</div>
+<h3>Vertical-LR</h3>
+<div class="write-mode-lr">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+</div>
+<h3>SideWays-RL</h3>
+<div class="write-mode-sd-rl">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+</div>
+<h3>SideWays-LR</h3>
+<div class="write-mode-sd-lr">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+</div>
+<h1>Column Count Properties</h1>
+<h3>Column-Count</h3>
+<div class="clmcnt">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Column-Gap</h3>
+<div class="clmgap">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Column-Rule Width,Styles &amp; Color</h3>
+<div class="clmrule">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Column Width</h3>
+<div class="clmrwdt">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Column Span</h3>
+<div class="clmspan">
+    <h2>Sub-Heading Here</h2>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h1>@Font-Face</h1>
+<h1>Mix-Blend-Mode Values</h1>
+<h3>Screen</h3>
+<div id="mixb">
+    <h2 class="hy">Mix-Blend-Mode</h2>
+</div>
+<h3>Overlay</h3>
+<div id="mixb">
+    <h2 class="ovly">Mix-Blend-Mode</h2>
+</div>
+<h3>Multiply</h3>
+<div id="mixb">
+    <h2 class="mtply">Mix-Blend-Mode</h2>
+</div>
+<h3>Color-Dodge</h3>
+<div id="mixb">
+    <h2 class="clr-ddg">Mix-Blend-Mode</h2>
+</div>
+<h3>Difference</h3>
+<div id="mixb">
+    <h2 class="diff">Mix-Blend-Mode</h2>
+</div>
+<h3>Hue</h3>
+<div id="mixb">
+    <h2 class="hue">Mix-Blend-Mode</h2>
+</div>
+<h3>Color</h3>
+<div id="mixb">
+    <h2 class="clr">Mix-Blend-Mode</h2>
+</div>
+<h3>Color-Burn</h3>
+<div id="mixb">
+    <h2 class="clr-brn">Mix-Blend-Mode</h2>
+</div>
+<h3>Hard-Light</h3>
+<div id="mixb">
+    <h2 class="hrd-lgt">Mix-Blend-Mode</h2>
+</div>
+<h3>Overlay on Img</h3>
+<div id="mixb3">
+    <img src="file:///C:/Users/Waleed/Desktop/Practice/LT.jpg" alt="">
+</div>
+<h3>Linear Gradient</h3>
+<div id="mixb4">
+    <img src="file:///C:/Users/Waleed/Desktop/Practice/LT.jpg" alt="">
+</div>
+<hr>
+
+<h1>List-Style</h1>
+<h3>List-Style-Type : Circle</h3>
+<ul id="list">
+    <li>Orange</li>
+    <li>Blue</li>
+    <li>Purple</li>
+    <li>Black</li>
+    <li>Yellow</li>
+    <li>Greens</li>
+</ul>
+<h3>List-Style-Type : Square</h3>
+<ul id="list2">
+    <li>Orange</li>
+    <li>Blue</li>
+    <li>Purple</li>
+    <li>Black</li>
+    <li>Yellow</li>
+    <li>Greens</li>
+</ul>
+<h3>List-Style-Type : Disc</h3>
+<ul id="list3">
+    <li>Orange</li>
+    <li>Blue</li>
+    <li>Purple</li>
+    <li>Black</li>
+    <li>Yellow</li>
+    <li>Greens</li>
+</ul>
+<h3>List-Style-Type : None</h3>
+<ul id="list4">
+    <li>Orange</li>
+    <li>Blue</li>
+    <li>Purple</li>
+    <li>Black</li>
+    <li>Yellow</li>
+    <li>Greens</li>
+</ul>
+<h3>List-Style-Type : Upper-Alpha</h3>
+<ol id="list5">
+    <li>Orange</li>
+    <li>Blue</li>
+    <li>Purple</li>
+    <li>Black</li>
+    <li>Yellow</li>
+    <li>Greens</li>
+</ol>
+<h3>List-Style-Type : Lower-Alpha</h3>
+<ol id="list6">
+    <li>Orange</li>
+    <li>Blue</li>
+    <li>Purple</li>
+    <li>Black</li>
+    <li>Yellow</li>
+    <li>Greens</li>
+</ol>
+<h3>List-Style-Type : Upper-Roman</h3>
+<ol id="list7">
+    <li>Orange</li>
+    <li>Blue</li>
+    <li>Purple</li>
+    <li>Black</li>
+    <li>Yellow</li>
+    <li>Greens</li>
+</ol>
+<h3>List-Style-Type : Lower-Roman</h3>
+<ol id="list8">
+    <li>Orange</li>
+    <li>Blue</li>
+    <li>Purple</li>
+    <li>Black</li>
+    <li>Yellow</li>
+    <li>Greens</li>
+</ol>
+<h3>List-Style-Type : Decimal(Numeric Number)</h3>
+<ol id="list9">
+    <li>Orange</li>
+    <li>Blue</li>
+    <li>Purple</li>
+    <li>Black</li>
+    <li>Yellow</li>
+    <li>Greens</li>
+</ol>
+<h3>List-Style-Type : Decimal(Numeric Number)-Leading Zero</h3>
+<ol id="list10">
+    <li>Orange</li>
+    <li>Blue</li>
+    <li>Purple</li>
+    <li>Black</li>
+    <li>Yellow</li>
+    <li>Greens</li>
+</ol>
+<hr>
+<h1>Background Image</h1>
+<h3>Background Image : Repeat</h3>
+<div class="bg">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Background Image : No Repeat</h3>
+<div class="bg2">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Background Image : Repeat-X</h3>
+<div class="bg3">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Background Image : Repeat-X</h3>
+<div class="bg4">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Background Image : Space</h3>
+<div class="bg5">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Background Image : Round</h3>
+<div class="bg6">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<hr>
+<h1>CSS : Background Position</h1>
+<h3>Background Position : Left-Top</h3>
+<div class="bapo">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Background Position : Left-Center</h3>
+<div class="bapo2">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Background Position : Left-Bottom</h3>
+<div class="bapo3">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Background Position : Center-Top</h3>
+<div class="bapo4">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Background Position : Center-Center</h3>
+<div class="bapo5">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Background Position : Center-Bottom</h3>
+<div class="bapo6">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Background Position : Right-Top</h3>
+<div class="bapo7">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Background Position : Right-Center</h3>
+<div class="bapo8">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Background Position : Right-Bottom</h3>
+<div class="bapo9">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>*We Can also do it manually by adding value to x-set or y-set*</h3>
+<h3>Background Position : Overlapping Images</h3>
+<div class="bapo10">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Background Attachment : Fixed</h3>
+<div class="attfix">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<hr>
+<h1>CSS : Background-Size</h1>
+<h3>Background-Size : Length(px)</h3>
+<div class="bs">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Background-Size : Percentage(%)</h3>
+<div class="bs2">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Background-Size : Cover</h3>
+<div class="bs3">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<h3>Background-Size : Contain</h3>
+<div class="bs4">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+</div>
+<hr>
+<h1>CSS : Background-Origin</h1>
+<h3>Background-Origin : Content-Box</h3>
+<div class="org">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectu
+</div>
+<h3>Background-Origin : Padding-Box</h3>
+<div class="org2">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectu
+</div>
+<h3>Background-Origin : Border-Box</h3>
+<div class="org1">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectu
+</div>
+<hr>
+<h1>CSS : Background-Clip</h1>
+<h3>Background-Clip : Content-Box</h3>
+<div class="clp">
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit cacsl;na;nsvsapsvnsvsd[asd sdsd[sd sdva[sddv saonsequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectuvsans a wh efwheweskhf ew hpowepf wehp hw w wp p whwacja fjof ajo ajf jao j oa ajalsaja dja
+</div>
+<h3>Background-Clip : Padding-Box</h3>
+<div class="clp1">
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit cacsl;na;nsvsapsvnsvsd[asd sdsd[sd sdva[sddv saonsequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectuvsans a wh efwheweskhf ew hpowepf wehp hw w wp p whwacja fjof ajo ajf jao j oa ajalsaja dja
+</div>
+<hr>
+<h3>*Picture on Text*</h3>
+<h3 class="wetr">Background-Clip : Border-Box</h3>
+<hr>
+<h1>CSS : Background-Clip</h1>
+<h3>Background-Clip : Border-Box</h3>
+<div class="clp2">
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit cacsl;na;nsvsapsvnsvsd[asd sdsd[sd sdva[sddv saonsequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectuvsans a wh efwheweskhf ew hpowepf wehp hw w wp p whwacja fjof ajo ajf jao j oa ajalsaja dja
+</div>
+<hr>
+<h1>CSS Gradient Background : Linear Gradient</h1>
+<h3>CSS Gradient Background : Linear Gradient-Bottom-to-Top</h3>
+<div class="grd-lin">
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit cacsl;na;nsvsapsvnsvsd[asd sdsd[sd sdva[sddv saonsequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectuvsans a wh efwheweskhf ew hpowepf wehp hw w wp p whwacja fjof ajo ajf jao j oa ajalsaja dja
+</div>
+<h3>CSS Gradient Background : Linear Gradient-Top-to-Bottom</h3>
+<div class="grd-lin2">
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit cacsl;na;nsvsapsvnsvsd[asd sdsd[sd sdva[sddv saonsequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectuvsans a wh efwheweskhf ew hpowepf wehp hw w wp p whwacja fjof ajo ajf jao j oa ajalsaja dja
+</div>
+<h3>CSS Gradient Background : Linear Gradient-Left-to-Right</h3>
+<div class="grd-lin3">
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit cacsl;na;nsvsapsvnsvsd[asd sdsd[sd sdva[sddv saonsequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectuvsans a wh efwheweskhf ew hpowepf wehp hw w wp p whwacja fjof ajo ajf jao j oa ajalsaja dja
+</div>
+<h3>CSS Gradient Background : Linear Gradient-Right-to-Left</h3>
+<div class="grd-lin4">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci ratione soluta cum nisi reprehenderit blanditiis porro harum, laboriosam quaerat minima commodi molestiae fugit quidem magnam rerum, maiores tempore accusamus!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit cacsl;na;nsvsapsvnsvsd[asd sdsd[sd sdva[sddv saonsequatur delectus? Error blanditiis animi, minima magnam illum excepturi. Enim facere alias corporis.
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae aliquam maxime ut non autem, nisi commodi, quae doloribus eius sequi ea itaque fugiat labore quam soluta fugit placeat temporibus deserunt!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam natus magni optio id dolorem possimus suscipit consequatur delectuvsans a wh efwheweskhf ew hpowepf wehp hw w wp p whwacja fjof ajo ajf jao j oa ajalsaja dja
+    </div>
+    <h3>CSS Gradient Background : Repeating Linear Gradient</h3>
+<div class="grd-lin5">
+    
+    </div>
+    <hr>
+    <h1>CSS Gradient Background : Radical Gradient</h1>
+    <h3>CSS Gradient Background : Radical Gradient</h3>
+    <div class="grd-rad"></div>
+    <h3>CSS Gradient Background : Radical Gradient : CIRCLE</h3>
+    <div class="grd-rad1"></div>
+    <h3>CSS Gradient Background : Radical Gradient : CLOSEST-SIDE</h3>
+    <div class="grd-rad2"></div>
+    <h3>CSS Gradient Background : Radical Gradient : FARTHEST-SIDE</h3>
+    <div class="grd-rad3"></div>
+    <h3>CSS Gradient Background : Radical Gradient :  CLOSEST-CORNER</h3>
+    <div class="grd-rad4"></div>
+    <h3>CSS Gradient Background : Radical Gradient :  FARTHEST-CORNER</h3>
+    <div class="grd-rad5"></div>
+    <h3>CSS Gradient Background : REPEATING-Radical Gradient</h3>
+    <div class="grd-rad6"></div>
+    <hr>
+<h1>CSS : Opacity</h1>
+<h3>Opacity For All Subject</h3>
+    <div class="opy">
+        <img src="./index_files/i567k_.jpeg" width="200px">
+        <h2 style="text-align: left;">Opacity</h2>
+        <p style="text-align: left;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus libero cupiditate nesciunt! Earum tenetur corrupti perferendis dolorum
+        modi animi fugit quis reprehenderit molestiae doloremque? Doloribus quibusdam totam aspernatur vitae soluta!</p>
+    </div>
+    <h3>Opacity Just For Background Subject</h3>
+    <div class="opy1">
+        <img src="./index_files/i567k_.jpeg" width="200px">
+        <h2 style="text-align: left;">Opacity</h2>
+        <p style="text-align: left;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus libero cupiditate nesciunt! Earum tenetur corrupti perferendis dolorum
+        modi animi fugit quis reprehenderit molestiae doloremque? Doloribus quibusdam totam aspernatur vitae soluta!</p>
+    </div>
+    <hr>
+    <h1>CSS Background-Blend Values</h1>
+    <h3>CSS Background-Blend : Screen</h3>
+    <div class="blend">
+    </div>
+    <h3>CSS Background-Blend : Darken</h3>
+    <div class="blend1"></div>
+    <h3>CSS Background-Blend : Color-Dodge</h3>
+    <div class="blend2"></div>
+    <h3>CSS Background-Blend : Difference</h3>
+    <div class="blend3"></div>
+    <h3>CSS Background-Blend : Color</h3>
+    <div class="blend4"></div>
+    <hr>
+    <h1>CSS Display</h1>
+    
+    <h3>CSS Display : NONE</h3>
+    <div id="dspnn">
+<ul>
+    <li>List 0</li>
+    <li>List 1</li>
+    <li>List 2</li>
+    <li>List 3</li>
+    <li>List 4</li>
+    <li>List 5</li>
+</ul>
+<h3>If we do display: none; then our data will be vanished!</h3> 
+</div>
+<h3>CSS Display : INLINE/ul/li</h3>
+<ul id="dspnn2">
+    <li id="li2">List 0</li>
+    <li id="li2">List 1</li>
+    <li id="li2">List 2</li>
+    <li id="li2">List 3</li>
+    <li id="li2">List 4</li>
+    <li id="li2">List 5</li>
+</ul> 
+<h3>CSS Display : BLOCK/span</h3>
+<span>ONE</span>
+<span>TWO</span>
+<span>THREE</span>
+<span>FOUR</span>
+<span>FIVE</span>
+<span>SIX</span>
+
+<h3>CSS Display : BLOCK/a</h3>
+<a href="file:///C:/Users/Waleed/Desktop/Practice/index.html">HOME</a>
+<a href="file:///C:/Users/Waleed/Desktop/Practice/index.html">ABOUT</a>
+<a href="file:///C:/Users/Waleed/Desktop/Practice/index.html">CONTACT</a>
+<h3>CSS Display : BLOCK-INLINE/a</h3>
+<div>
+<a class="inli" href="file:///C:/Users/Waleed/Desktop/Practice/index.html">HOME</a>
+<a class="inli" href="file:///C:/Users/Waleed/Desktop/Practice/index.html">ABOUT</a>
+<a class="inli" href="file:///C:/Users/Waleed/Desktop/Practice/index.html">CONTACT</a>
+</div>
+<h3>CSS Display : LIST ITEM</h3>
+<span class="spn">ONE</span>
+<span class="spn">TWO</span>
+<span class="spn">THREE</span>
+<span class="spn">FOUR</span>
+<span class="spn">FIVE</span>
+<span class="spn">SIX</span>
+<hr>
+<h1>CSS VISIBLITY</h1>
+<h3>CSS VISIBLITY : VISIBLE(Default)</h3>
+<h3>CSS VISIBLITY : HIDDEN</h3>
+<div class="uapw">
+<ul class="vis">
+    <li>List 0</li>
+    <li>List 1</li>
+    <li>List 2</li>
+    <li>List 3</li>
+    <li>List 4</li>
+    <li>List 5</li>
+</ul>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque alias distinctio ipsa quis officia aspernatur minus sed expedita rerum.
+Quisquam aliquid obcaecati eos suscipit? Sed asperiores natus nesciunt expedita! Aliquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque alias distinctio ipsa quis officia aspernatur minus sed expedita rerum.
+Quisquam aliquid obcaecati eos suscipit? Sed asperiores natus nesciunt expedita! Aliquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque alias distinctio ipsa quis officia aspernatur minus sed expedita rerum.
+Quisquam aliquid obcaecati eos suscipit? Sed asperiores natus nesciunt expedita! Aliquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque alias distinctio ipsa quis officia aspernatur minus sed expedita rerum.
+Quisquam aliquid obcaecati eos suscipit? Sed asperiores natus nesciunt expedita! Aliquam.</p>
+</div>
+<h3>CSS VISIBLITY : COLLAPSE</h3>
+<div>
+<table border="1">
+    <tbody><tr>
+        <td>Team</td>
+        <td>Players</td>
+    </tr>
+    <tr>
+        <td>VP</td>
+        <td>OldBoy</td>
+    </tr>
+    <tr>
+        <td class="rev">NV</td>
+        <td>Para</td>
+    </tr>
+</tbody></table>
+</div>
+<hr>
+<div class="afa">
+    <h1>CSS : BASIC LAYOUT DESIGN</h1>
+<a href="file:///C:/Users/Waleed/Desktop/Practice/basicweblayout.html">Click Here For More</a>
+</div>
+<hr>
+<h1>CSS : POSITION</h1>
+<h3>CSS : POSITION / relative</h3>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla dolorum nisi rem? Rem consectetur fuga quod animi odio tenetur repellendus cupiditate natus temporibus quae in ad, voluptatum dolores laboriosam vero.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, distinctio quo. Possimus blanditiis corrupti voluptatum quas sint officiis ullam sequi libero maxime nostrum, dignissimos repudiandae exercitationem aut laboriosam, amet voluptates?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis aliquid laudantium consequatur? Dicta nemo officiis asperiores delectus error quis numquam dolores, consectetur quisquam quo obcaecati velit inventore aspernatur dolorum.</p>   
+
+
+<div class="posi"></div>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla dolorum nisi rem? Rem consectetur fuga quod animi odio tenetur repellendus cupiditate natus temporibus quae in ad, voluptatum dolores laboriosam vero.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, distinctio quo. Possimus blanditiis corrupti voluptatum quas sint officiis ullam sequi libero maxime nostrum, dignissimos repudiandae exercitationem aut laboriosam, amet voluptates?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis aliquid laudantium consequatur? Dicta nemo officiis asperiores delectus error quis numquam dolores, consectetur quisquam quo obcaecati velit inventore aspernatur dolorum.</p>
+
+<h3>CSS : POSITION / absolute</h3>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla dolorum nisi rem? Rem consectetur fuga quod animi odio tenetur repellendus cupiditate natus temporibus quae in ad, voluptatum dolores laboriosam vero.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, distinctio quo. Possimus blanditiis corrupti voluptatum quas sint officiis ullam sequi libero maxime nostrum, dignissimos repudiandae exercitationem aut laboriosam, amet voluptates?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis aliquid laudantium consequatur? Dicta nemo officiis asperiores delectus error quis numquam dolores, consectetur quisquam quo obcaecati velit inventore aspernatur dolorum.</p>   
+
+
+<div class="posiab"></div>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla dolorum nisi rem? Rem consectetur fuga quod animi odio tenetur repellendus cupiditate natus temporibus quae in ad, voluptatum dolores laboriosam vero.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, distinctio quo. Possimus blanditiis corrupti voluptatum quas sint officiis ullam sequi libero maxime nostrum, dignissimos repudiandae exercitationem aut laboriosam, amet voluptates?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis aliquid laudantium consequatur? Dicta nemo officiis asperiores delectus error quis numquam dolores, consectetur quisquam quo obcaecati velit inventore aspernatur dolorum.</p>
+
+<h3>CSS : POSITION / fixed</h3>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla dolorum nisi rem? Rem consectetur fuga quod animi odio tenetur repellendus cupiditate natus temporibus quae in ad, voluptatum dolores laboriosam vero.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, distinctio quo. Possimus blanditiis corrupti voluptatum quas sint officiis ullam sequi libero maxime nostrum, dignissimos repudiandae exercitationem aut laboriosam, amet voluptates?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis aliquid laudantium consequatur? Dicta nemo officiis asperiores delectus error quis numquam dolores, consectetur quisquam quo obcaecati velit inventore aspernatur dolorum.</p>   
+
+
+<div class="posifx"></div>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla dolorum nisi rem? Rem consectetur fuga quod animi odio tenetur repellendus cupiditate natus temporibus quae in ad, voluptatum dolores laboriosam vero.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, distinctio quo. Possimus blanditiis corrupti voluptatum quas sint officiis ullam sequi libero maxime nostrum, dignissimos repudiandae exercitationem aut laboriosam, amet voluptates?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis aliquid laudantium consequatur? Dicta nemo officiis asperiores delectus error quis numquam dolores, consectetur quisquam quo obcaecati velit inventore aspernatur dolorum.</p>
+<h1>CSS : Z-INDEX</h1>
+<a href="file:///C:/Users/Waleed/Desktop/Practice/z-index.html">CLick for more</a>
+<h1>CSS : Table Properties</h1>
+<h3>CSS Table Properties : Border-Spacing</h3>
+<table id="tbbs">
+    <tbody><tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>Ali</td>
+        <td>Ahmed</td>
+        <td>$100</td>
+    </tr>
+    <tr>
+        <td>Omerr</td>
+        <td>Ali</td>
+        <td>$300</td>
+    </tr>
+    <tr>
+        <td>Ahmed</td>
+        <td>Raza</td>
+        <td>$100</td>
+    </tr>
+</tbody></table>
+<h3>CSS Table Properties : Border-Collapse</h3>
+<table id="tbbs1">
+    <tbody><tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>Ali</td>
+        <td>Ahmed</td>
+        <td>$100</td>
+    </tr>
+    <tr>
+        <td>Omerr</td>
+        <td>Ali</td>
+        <td>$300</td>
+    </tr>
+    <tr>
+        <td>Ahmed</td>
+        <td>Raza</td>
+        <td>$100</td>
+    </tr>
+</tbody></table>
+<h3>CSS Table Properties : Border-Separate</h3>
+<table id="tbbs2">
+    <tbody><tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>Ali</td>
+        <td>Ahmed</td>
+        <td>$100</td>
+    </tr>
+    <tr>
+        <td>Omerr</td>
+        <td>Ali</td>
+        <td>$300</td>
+    </tr>
+    <tr>
+        <td>Ahmed</td>
+        <td>Raza</td>
+        <td>$100</td>
+    </tr>
+</tbody></table>
+<h3>CSS Table Properties : Vertical Align</h3>
+<table id="vsa">
+    <tbody><tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>Ali Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ratione.</td>
+        <td>Ahmed</td>
+        <td>$100</td>
+    </tr>
+    <tr>
+        <td>Omerr Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, alias.</td>
+        <td>Ali</td>
+        <td>$300</td>
+    </tr>
+    <tr>
+        <td>Ahmed</td>
+        <td>Raza</td>
+        <td>$100</td>
+    </tr>
+</tbody></table>
+<h3>CSS Table Properties : Caption-Side(top/bottom)</h3>
+<table id="cpa">
+    <caption>Employee</caption>
+    <tbody><tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>Ali</td>
+        <td>Ahmed</td>
+        <td>$100</td>
+    </tr>
+    <tr>
+        <td>Omerr.</td>
+        <td>Ali</td>
+        <td>$300</td>
+    </tr>
+    <tr>
+        <td>Ahmed</td>
+        <td>Raza</td>
+        <td>$100</td>
+    </tr>
+</tbody></table>
+<h3>CSS Table Properties : Empty-Cell</h3>
+<table id="tesa">
+    <tbody><tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>Ali</td>
+        <td>Ahmed</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Omerr.</td>
+        <td>Ali</td>
+        <td>$300</td>
+    </tr>
+    <tr>
+        <td>Ahmed</td>
+        <td>Raza</td>
+        <td>$100</td>
+    </tr>
+</tbody></table>
+<h3>CSS Table Properties : Table-Layout</h3>
+<table id="tesa2">
+    <tbody><tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>Alilalalasfasfjlfj[sfdjfs]adadadaads Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, animi.</td>
+        <td>Ahmed</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Omerraoslfjasja[ap-ad-dia-anakaknaksaoshs] Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quod.</td>
+        <td>Ali</td>
+        <td>$300</td>
+    </tr>
+    <tr>
+        <td>Ahmed</td>
+        <td>Raza</td>
+        <td>$100</td>
+    </tr>
+</tbody></table>
+<hr>
+<h1>CSS Resize DIV</h1>
+<h3>CSS Resize DIV : Vertical</h3>
+<div id="rediv">Resize The DIV</div>
+<h3>CSS Resize DIV : Horizontal</h3>
+<div id="rediv2">Resize The DIV</div>
+<hr>
+<h1>CSS Cursor</h1>
+<h3>CSS Cursor : HELP</h3>
+<div id="cus">
+    <h2>Hover the Box</h2>
+</div>
+<h3>CSS Cursor : POINTER</h3>
+<div id="cus2">
+    <h2>Hover the Box</h2>
+</div>
+<h3>CSS Cursor : PROGRESS</h3>
+<div id="cus3">
+    <h2>Hover the Box</h2>
+</div>
+<h3>CSS Cursor : WAIT</h3>
+<div id="cus4">
+    <h2>Hover the Box</h2>
+</div>
+<h3>CSS Cursor : CELL</h3>
+<div id="cus5">
+    <h2>Hover the Box</h2>
+</div>
+<h3>CSS Cursor : CROSS-HAIR</h3>
+<div id="cus6">
+    <h2>Hover the Box</h2>
+</div>
+<h3>CSS Cursor : TEXT</h3>
+<div id="cus7">
+    <h2>Hover the Box</h2>
+</div>
+<h3>CSS Cursor : VERTICAL-TEXT</h3>
+<div id="cus8">
+    <h2>Hover the Box</h2>
+</div>
+<h3>CSS Cursor : ALIAS</h3>
+<div id="cus9">
+    <h2>Hover the Box</h2>
+</div>
+<br>
+<div id="mor"><h2>AND MORE</h2></div>
+<hr>
+<h1>CSS : CALC() </h1>
+<div id="calao">header</div>
+<div id="calao2">content</div>
+<div id="calao3">footer</div>
+<hr>
+<h1>CSS Clip-Path </h1>
+<div>
+<h3>CSS Clip-Path : Circle</h3>
+<img class="rnd" src="./index_files/i567k_.jpeg" alt="">
+</div>
+<div>
+<h3>CSS Clip-Path : Ellipse</h3>
+<img class="rnd1" src="./index_files/i567k_.jpeg" alt="">
+</div>
+<div>
+<h3>CSS Clip-Path : Inset</h3>
+<img class="rnd2" src="./index_files/i567k_.jpeg" alt="">
+</div>
+<div>
+    <h3>CSS Clip-Path : Polygon</h3>
+    <img class="rnd3" src="./index_files/i567k_.jpeg" alt="">
+</div>
+<div id="hre">
+    <a target="_blank" href="https://bennettfeely.com/clippy/">You Can Create Custom Shapes Here</a>
+</div>
+<hr>
+<h1>CSS Shape-Outside</h1>
+<div>
+<h3>CSS Shape-Outside : Circle</h3>
+<img id="sde" src="./index_files/i567k_.jpeg" alt="">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores explicabo similique recusandae aut optio nostrum omnis expedita molestias eius, nemo, necessitatibus, blanditiis voluptatibus itaque consectetur ad est culpa harum veniam delectus ex! Itaque quae consequatur error hic delectus! Voluptas nam a, ad fugiat, vel quod vero perspiciatis et magnam voluptatibus autem quia. Distinctio fuga, soluta recusandae explicabo, amet sed vel, ipsum officiis perferendis eveniet quaerat accusantium. Nam veniam doloribus laboriosam. Omnis, tenetur atque animi repudiandae est eveniet odit praesentium, repellat, asperiores illo veniam a quas. Sapiente eligendi, suscipit beatae harum saepe facere. Doloremque velit vitae, ullam eveniet ad voluptas vel id dicta quaerat, commodi architecto expedita, soluta esse. Tempore velit doloribus vero commodi dolor veniam ad, veritatis ipsam, pariatur iste cum sapiente repellat quidem, dicta rerum hic odio quia a. Accusamus suscipit sapiente, repellat libero velit delectus rerum debitis quos excepturi officia. Modi, nam? Error ut laboriosam impedit quis iste quidem. Ex omnis aspernatur magnam totam autem vitae beatae corporis maiores laboriosam rem, optio fugiat alias, iure, atque recusandae odio doloribus sit natus aut quae adipisci. Fugit culpa doloribus, adipisci vitae dolor molestias dignissimos aliquid, atque iusto laudantium nam temporibus cum. Officia minus laboriosam perferendis alias! Fugit error praesentium delectus tempora porro eum saepe doloribus, adipisci aut dolorum magni esse sint dignissimos quam illo ducimus perspiciatis quidem omnis. Iure ducimus exercitationem facere dicta quos doloribus quod quia maxime est veritatis voluptatem sed,
+similique tempore voluptate nostrum natus quae veniam inventore accusantium nesciunt ut, praesentium numquam sint non. At, ratione iure?similique recusandae aut optio nostrum omnis expedita molestias eius, nemo, necessitatibus, blanditiis voluptatibus itaque consectetur ad est culpa harum veniam delectus ex! Itaque quae consequatur error hic delectus! Voluptas nam a, ad fugiat, vel quod vero perspiciatis et magnam voluptatibus autem quia. Distinctio fuga, soluta recusandae explicabo, amet sed vel, ipsum officiis perferendis eveniet quaerat accusantium. Nam veniam doloribus laboriosam. Omnis, tenetur atque animi repudiandae est eveniet odit praesentium, repellat, asperiores illo veniam a quas. Sapiente eligendi, suscipit beatae harum saepe facere. Doloremque velit vitae, ullam eveniet ad voluptas vel id dicta quaerat, commodi architecto expedita, soluta esse. Tempore velit doloribus vero commodi dolor veniam ad, veritatis ipsam, pariatur iste cum sapiente repellat quidem, dicta rerum hic odio quia a. Accusamus suscipit sapiente, repellat libero velit delectus rerum debitis quos excepturi officia. Modi, nam? Error ut laboriosam impedit quis iste quidem. Ex omnis aspernatur magnam totam autem vitae beatae corporis maiores laboriosam rem, optio fugiat alias, iure, atque recusandae odio doloribus sit natus aut quae adipisci. Fugit culpa doloribus, adipisci vitae dolor molestias dignissimos aliquid, atque iusto laudantium nam temporibus cum. Officia minus laboriosam perferendis alias! Fugit error praesentium delectus tempora porro eum saepe doloribus, adipisci aut dolorum magni esse sint dignissimos quam illo ducimus perspiciatis quidem omnis. Iure ducimus exercitationem facere dicta quos doloribus quod quia maxime est veritatis voluptatem sed,
+similique tempore voluptate nostrum natus quae veniam inventore accusantium nesIure ducimus exercitationem facere dicta quos doloribus quod quia maxime est veritatis voluptatem sed,</p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<h1>CSS Filter</h1>
+<h3>CSS Filter : Blur</h3>
+    <div class="fil"></div>
+    <h3>CSS Filter : Brightness</h3>
+    <div class="fil2"></div>
+    <h3>CSS Filter : Contrast</h3>
+    <div class="fil3"></div>
+    <h3>CSS Filter : Drop-Shadow</h3>
+    <div class="fil4"></div>
+    <hr>
+    <h1>CSS Transition</h1>
+    <div id="hov"></div>
+    <h1>CSS Transform-2D</h1>
+    <h3>CSS Transform-2D : Rotate</h3>
+    <div id="rte">Transform Rotate</div>
+    <h3>CSS Transform-2D : Skew X</h3>
+    <div id="rte2">Transform Skew X</div>
+    <h3>CSS Transform-2D : Skew Y</h3>
+    <div id="rte3">Transform Skew Y</div>
+    <h3>CSS Transform-2D : ScaleX</h3>
+<div id="rte4"></div>
+<h3>CSS Transform-2D : ScaleY</h3>
+<div id="rte5"></div>
+<h3>CSS Translate </h3>
+<div id="rte6"></div>
+<hr>
+<h1>CSS Transform-3D</h1>
+<h3>CSS Transform-3D : RotateX</h3>
+<div class="base">
+    <div id="threed">Rude56K</div>
+</div>
+<h3>CSS Transform-3D : RotateY</h3>
+<div class="base">
+    <div id="threed2">Rude56K</div>
+</div>
+<h3>CSS Transform-3D : RotateZ</h3>
+<div class="base">
+    <div id="threed3">Rude56K</div>
+</div>
+<br>
+<br>
+<hr>
+<h1>CSS Transform-Style Value</h1>
+<div class="parent">
+    <div id="threed4">CSS Transform-Style</div>
+</div>
+<hr>
+<h1>CSS Backface-Visibility</h1>
+<a id="btn" href="backface-visibility.html">Click here</a>
+<hr>
+<h1> CSS Animation</h1>
+</center>
+<h3> CSS Animation : Reverse</h3>
+    <div id="anima"></div>
+   <center> <h3> CSS Animation : Alternate</h3>
+    <div id="anima2"></div>
+    <h3 style="margin: 350px;">CSS Animation : Alternate-Reverse</h3>
+    <div id="anima3"></div>
+    <hr>
+    <h1>CSS Animation-Fill-Mode</h1>
+    <h3>CSS Animation-Fill-Mode - Forwards</h3>
+    <div class="fillmode"></div>
+    <h3>CSS Animation-Fill-Mode - Backwards</h3>
+    <div class="fillmode2"></div>
+    <h3>CSS Animation-Fill-Mode - Both</h3>
+    <div class="fillmode3"></div>
+    <hr>
+    <h1>CSS Animation-Play-State</h1>
+    <h3>CSS Animation-Play-State : Paused</h3>
+    <div class="playstate"></div>
+    <h3>CSS Animation-Play-State : Running</h3>
+    <div class="playstate2"></div>
+    <h3>CSS Animation-Play-State : Running Without Hover</h3>
+    <div class="playstate3"></div>
+    <hr>
+    <h1>CSS : User Select</h1>
+    <h3>CSS : User Select : None</h3>
+    <div id="usr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, molestiae, id quo dicta, fuga sapiente sequi dolores temporibus delectus non dignissimos. Accusamus, quis, perferendis vero sit autem quos non hic praesentium consectetur itaque laudantium culpa provident nulla excepturi rem possimus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur distinctio nesciunt hic, ipsam totam tenetur repudiandae magnam aperiam placeat quae est, explicabo quidem ipsum? Odit, modi. Voluptatem totam atque hic explicabo possimus earum, aut itaque non odio ab mollitia sit temporibus quibusdam eaque nisi, libero aliquam soluta quaerat ullam quisquam ipsum? Esse, ipsam autem. Fugit dolore omnis temporibus labore veritatis.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores placeat ea debitis magni ullam deserunt error aut, et laborum, quibusdam praesentium quaerat, totam id. Consequuntur neque esse, dignissimos fugit sit velit dolores mollitia rerum unde similique dolorem. Error sequi molestias ipsa alias dolorem, repellendus delectus at asperiores facilis modi sunt quas atque debitis, necessitatibus ipsam. Quisquam ullam corporis quis facere, iste autem consequatur dolores deserunt accusantium voluptatem quam animi eos!</div>
+        <h3>CSS : User Select : All</h3>
+        <h4>Click to copy all</h4>
+        <div id="usr1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, molestiae, id quo dicta, fuga sapiente sequi dolores temporibus delectus non dignissimos. Accusamus, quis, perferendis vero sit autem quos non hic praesentium consectetur itaque laudantium culpa provident nulla excepturi rem possimus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur distinctio nesciunt hic, ipsam totam tenetur repudiandae magnam aperiam placeat quae est, explicabo quidem ipsum? Odit, modi. Voluptatem totam atque hic explicabo possimus earum, aut itaque non odio ab mollitia sit temporibus quibusdam eaque nisi, libero aliquam soluta quaerat ullam quisquam ipsum? Esse, ipsam autem. Fugit dolore omnis temporibus labore veritatis.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores placeat ea debitis magni ullam deserunt error aut, et laborum, quibusdam praesentium quaerat, totam id. Consequuntur neque esse, dignissimos fugit sit velit dolores mollitia rerum unde similique dolorem. Error sequi molestias ipsa alias dolorem, repellendus delectus at asperiores facilis modi sunt quas atque debitis, necessitatibus ipsam. Quisquam ullam corporis quis facere, iste autem consequatur dolores deserunt accusantium voluptatem quam animi eos!
+        </div>
+        <h3>CSS : User Select : Text</h3>
+    <div id="usr2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, molestiae, id quo dicta, fuga sapiente sequi dolores temporibus delectus non dignissimos. Accusamus, quis, perferendis vero sit autem quos non hic praesentium consectetur itaque laudantium culpa provident nulla excepturi rem possimus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur distinctio nesciunt hic, ipsam totam tenetur repudiandae magnam aperiam placeat quae est, explicabo quidem ipsum? Odit, modi. Voluptatem totam atque hic explicabo possimus earum, aut itaque non odio ab mollitia sit temporibus quibusdam eaque nisi, libero aliquam soluta quaerat ullam quisquam ipsum? Esse, ipsam autem. Fugit dolore omnis temporibus labore veritatis.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores placeat ea debitis magni ullam deserunt error aut, et laborum, quibusdam praesentium quaerat, totam id. Consequuntur neque esse, dignissimos fugit sit velit dolores mollitia rerum unde similique dolorem. Error sequi molestias ipsa alias dolorem, repellendus delectus at asperiores facilis modi sunt quas atque debitis, necessitatibus ipsam. Quisquam ullam corporis quis facere, iste autem consequatur dolores deserunt accusantium voluptatem quam animi eos!</div>
+        <h3>CSS : User Select : Auto</h3>
+    <div id="usr3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, molestiae, id quo dicta, fuga sapiente sequi dolores temporibus delectus non dignissimos. Accusamus, quis, perferendis vero sit autem quos non hic praesentium consectetur itaque laudantium culpa provident nulla excepturi rem possimus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur distinctio nesciunt hic, ipsam totam tenetur repudiandae magnam aperiam placeat quae est, explicabo quidem ipsum? Odit, modi. Voluptatem totam atque hic explicabo possimus earum, aut itaque non odio ab mollitia sit temporibus quibusdam eaque nisi, libero aliquam soluta quaerat ullam quisquam ipsum? Esse, ipsam autem. Fugit dolore omnis temporibus labore veritatis.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores placeat ea debitis magni ullam deserunt error aut, et laborum, quibusdam praesentium quaerat, totam id. Consequuntur neque esse, dignissimos fugit sit velit dolores mollitia rerum unde similique dolorem. Error sequi molestias ipsa alias dolorem, repellendus delectus at asperiores facilis modi sunt quas atque debitis, necessitatibus ipsam. Quisquam ullam corporis quis facere, iste autem consequatur dolores deserunt accusantium voluptatem quam animi eos!
+    </div>
+    <hr>
+    <h1>CSS : Box Decoration-Break</h1>
+    <h3>CSS : Box Decoration-Break : Clone</h3>
+    <span id="spen">Lorem ipsum dolor<br> sit amet <br>consectetur <br>adipisicing elit.<br>Magnam, amet.</span>
+    <h3>CSS : Box Decoration-Break : Slice{Default}</h3>
+    <span id="spen2">Lorem ipsum dolor<br> sit amet <br>consectetur <br>adipisicing elit.<br>Magnam, amet.</span>
+<hr>
+<h1>CSS Quotes</h1>
+<q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quidem!</q>
+<hr>
+<h1>CSS : Border-Image</h1>
+<div id="imgbx">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsa repudiandae non earum ducimus? Explicabo quia repudiandae vel maiores eius. Debitis at nemo id eligendi officiis cum, dicta voluptate animi non beatae corporis minima quae possimus. Necessitatibus pariatur cupiditate, quo ratione fugit ipsam repudiandae, blanditiis dolorum doloribus deserunt praesentium itaque eveniet cumque possimus fugiat rerum tempore in. Impedit pariatur fuga repellendus
+                dignissimos quis. Sunt perspiciatis illum reiciendis cupiditate quaerat unde dignissimos optio sint incidunt amet, nulla quasi numquam voluptas cum iusto totam delectus, quia doloremque iste quidem libero molestias, fuga nostrum. Ullam rerum repellat vitae sint. Recusandae fugit facere non repellat blanditiisae!
+                </div>
+                <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Border-image_generator" target="_blank">Create More Design Here</a></p>
+<hr>
+<h1>Pseudo-Classess</h1>
+<h3>Pseudo-Classess : First Child</h3>
+            <div id="pseudo">
+            
+            <ul>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+            </ul>
+        </div>
+        <br>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis totam debitis fugiat voluptas inventore beatae eligendi corrupti libero possimus ea.</p>
+       <br>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem ad amet aliquam minima a tempora illum aut provident soluta voluptates?</p>
+       <br>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente molestias ea saepe esse ipsa autem aliquam adipisci dolor laborum suscipit.</p>
+       <h3>Pseudo-Classess : Last Child</h3>
+       <div id="pseudo2">
+       <ul>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+    </ul>   
+</div> 
+<h3>Pseudo-Classess : nth-Child</h3>
+       <div id="pseudo3">
+       <ul>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, eligendi.</li>
+    </ul>   
+</div> 
+    </center>
+
+</body>
+</html>
